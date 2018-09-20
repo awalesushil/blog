@@ -20,16 +20,16 @@ permalink: none
 
 # Pagination
 paginate: 10
-#paginate_path: "/page:num/"
-#archive:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-#category:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-#tag:
-  #paginate: 10
-  #paginate_path: "/page:num/"
+paginate_path: "/page:num/"
+archive:
+  paginate: 10
+  paginate_path: "/page:num/"
+category:
+  paginate: 10
+  paginate_path: "/page:num/"
+tag:
+  paginate: 10
+  paginate_path: "/page:num/"
 
 # Handling Reading
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md", "vendor"]
@@ -93,7 +93,7 @@ rss:
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: true
+copyright: false
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -118,8 +118,8 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
-  #about: /about/
+  categories: /categories/
+  about: https://www.linkedin.com/in/sushilawale
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
@@ -152,8 +152,8 @@ menu_icons:
 
 # Schemes
 scheme: Muse
-#scheme: Mist
-#scheme: Pisces
+# scheme: Mist
+# scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -174,7 +174,7 @@ font:
   global:
     # external: true will load this font family from host.
     external: true
-    family: Lato
+    family: Open Sans
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
@@ -213,8 +213,10 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  GitHub: https://github.com/awalesushil
+  Twitter: https://twitter.com/sushilawale
+  LinkedIn: https://linkedin.com/in/sushilawale
 
 
 # Social Links Icons
@@ -228,11 +230,11 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
-  Weibo: weibo
+  LinkedIn: linkedin
 
 
 # Sidebar Avatar
-# in directory: /assets/images/avatar.gif
+in directory: /assets/images/avatar.gif
 #avatar:
 
 
@@ -256,8 +258,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
-  #position: right
+  # position: left
+  position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
@@ -277,7 +279,7 @@ sidebar:
   b2t: false
 
   # Scroll percent label in b2t button
-  scrollpercent: false
+  scrollpercent: true
 
 
 # Blog rolls
@@ -318,7 +320,7 @@ post_meta:
 post_wordcount:
   item_text: true
   wordcount: false
-  min2read: false
+  min2read: true
   separated_meta: true
 
 # Wechat Subscriber
@@ -362,7 +364,7 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
+  enable: true
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
@@ -381,7 +383,7 @@ han: false
 # Disqus
 disqus:
   enable: true 
-  shortname: sushilawale
+  shortname: awalesushil
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
@@ -410,11 +412,11 @@ changyan:
 # Support for gitalk comments system.
 gitalk:
   enable: false
-  clientID: # 54730ddf7b9420460c03
-  clientSecret: # c05684701b25ff1c19ea0c01ce4d80c125e0707d
-  repo: # colingpt.github.io
-  owner: # colingpt
-  admin: # colingpt
+  clientID: # be8dc01ff85890f8ecec
+  clientSecret: # d3e2db6d016b0124c8c05963bfec07c5fbee8391
+  repo: # blog
+  owner: # awalesushil
+  admin: # awalesushil
 
 # Baidu Share
 # Available value:
@@ -560,12 +562,12 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
   # show top n results per article, show all results by setting to -1
-  top_n_per_article: 1
+  top_n_per_article: -1
 
 # External URL with BASE64 encrypt & decrypt
 # Usage: {% exturl text url "title" %}
