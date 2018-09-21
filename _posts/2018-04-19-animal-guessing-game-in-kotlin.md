@@ -1,7 +1,7 @@
 ---
 title: "Build an Animal Guessing Game in Kotlin 5 minutes"
 key: 20180919
-categories: AI
+categories: AI, Projects
 tags: AI, Kotlin
 ---
 
