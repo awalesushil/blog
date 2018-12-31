@@ -1,7 +1,14 @@
 ---
-layout: page
+layout: default
+permalink: /404.html
+title: 404 Not Found
 ---
-
-<h1>Hmm... We did not find what you were looking for.</h1> 
-
-<h2>Check out the <a href="https://blog.sushilawale.com/archives">archives</a> page. </h2>
+<header>
+  <h1 class="header-small">
+    <a href="{{site.url}}{{site.baseurl}}">{{ site.name }}</a>
+  </h1>
+</header>
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  <span>Sorry, but the page you were trying to view does not exist.</span>
+</div>

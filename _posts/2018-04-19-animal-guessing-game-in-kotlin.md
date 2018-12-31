@@ -1,14 +1,15 @@
 ---
-title: "Build an Animal Guessing Game in Kotlin 5 minutes"
-key: 20180919
-categories: AI
-tags: AI, Kotlin
+layout: post
+title: "Build an Animal Guessing Game in Kotlin"
+description: "Animal Guessing Game is a toy problem in AI that tries to predict the animal the player is thinking of."
+date: 2018-04-19
+tags: [ai, kotlin]
+comments: true
+share: true
 ---
 
-Animal Guessing Game is a [toy problem](https://artificialintelligentsystems.wordpress.com/category/toy-problems/) in Artificial Intelligence and is one of the best introductory projects for programmers who want to learn AI. I am taking Artificial Intelligence course for my fifth semester and this is my first AI project which I wrote in [Kotlin](https://kotlinlang.org/).
+Animal Guessing Game is a [toy problem](https://artificialintelligentsystems.wordpress.com/category/toy-problems/){:target="_blank"} in Artificial Intelligence and is one of the best introductory projects for programmers who want to learn AI. I am taking Artificial Intelligence course for my fifth semester and this is my first AI project which I wrote in [Kotlin](https://kotlinlang.org/){:target="_blank"}.
 Animal Guessing Game as the name suggests the guesses the animal that the player is thinking of. 
-
-<!--more-->
 
 Here is how the game goes:
 
@@ -21,7 +22,7 @@ If the agent got the answer correct, it wins. Otherwise, the agent asks the play
 
 Here is a snapshot of a run in the game.
 
-![demo_snapshot](/assets/images/animal_guessing_game.jpg){:.border.rounded}
+![demo_snapshot](/images/animal_guessing_game.jpg){:.border.rounded}
 
 ## Understanding The Problem
 
@@ -31,29 +32,21 @@ Here, it is very important to understand the problem. This is a simple binary pr
 
 ### Binary Search Tree
 
-Create a simple [Binary search tree [Wiki]](https://en.wikipedia.org/wiki/Binary_search_tree) with Nodes containing data (A Yes/No question or an animal name) and two children nodes. The binary search tree consists of a function to insert a child node which the agent uses to store new information.
+Create a simple [Binary search tree [Wiki]](https://en.wikipedia.org/wiki/Binary_search_tree){:target="_blank"} with Nodes containing data (A Yes/No question or an animal name) and two children nodes. The binary search tree consists of a function to insert a child node which the agent uses to store new information.
 
-{% gist 137274de067475ad5758bff5cee5df70 %}
+<script src="https://gist.github.com/awalesushil/137274de067475ad5758bff5cee5df70.js"></script>
 
 ### Animal Guessing Game Agent
 
 Next, create the Animal Guessing Game Agent. It will contain the following functions:
 
-<ul>
-  <li>
-  A function to start the game. Here, we will initialize the game with a question and two answers (one for a 'Yes' answer and the other for a 'No' answer). In the above run, the initial question is 'Can it fly?' and the answer is <i>Pigeon</i> for 'Yes' and <i>Elephant</i> for 'No'.
-  </li>
-  <li>
-  A function to play the game. This function whenever called points to the topmost node and traverses down. It contains a loop that iterates until a node is found null. Then it exits the loop and makes a guess.
-  </li>
-  <li>
-  A function to learn new information. This is what makes the agent intelligent. It asks the player the name of the animal that the player was thinking of and also a hint related to that animal. Then, the agent inserts the new information into its binary search tree.
-  </li>
-</ul>
+* A function to start the game. Here, we will initialize the game with a question and two answers (one for a 'Yes' answer and the other for a 'No' answer). In the above run, the initial question is 'Can it fly?' and the answer is <i>Pigeon</i> for 'Yes' and <i>Elephant</i> for 'No'.
+* A function to play the game. This function whenever called points to the topmost node and traverses down. It contains a loop that iterates until a node is found null. Then it exits the loop and makes a guess.
+* A function to learn new information. This is what makes the agent intelligent. It asks the player the name of the animal that the player was thinking of and also a hint related to that animal. Then, the agent inserts the new information into its binary search tree.
 
-{% gist cfb5894cfe46b4e41f8434399e172aa1 %}
+<script src="https://gist.github.com/awalesushil/cfb5894cfe46b4e41f8434399e172aa1.js"></script>
 
-You can find the full executable code [here](https://github.com/awalesushil/Animal-Guessing-Game). 
+You can find the full executable code [here](https://github.com/awalesushil/Animal-Guessing-Game){:target="_blank"}. 
 
 ---
 
