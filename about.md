@@ -7,4 +7,4 @@ I am Sushil Awale, a senior at Deerwalk Institute of Technology studying Compute
 
 I am teaching Python programming to sophomore students at my college. I previously worked as a Web Developer Intern at Digital Media Lab, Deerwalk Institute of Technology. 
 
-You can see my work profile on [LinkedIn](https://www.linkedin.com/in/sushilawale)){:target="_blank"}. 
+You can see my work profile on [LinkedIn](https://www.linkedin.com/in/sushilawale){:target="_blank"}. 
