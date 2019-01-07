@@ -7,7 +7,9 @@ Hi! I am Sushil, an undergrad Computer Science student at DWIT College, Nepal. I
 
 I currently teach Python programming to sophomore students at my college. I previously worked as a Web Developer Intern at Digital Media Lab, DWIT College.
 
-I love learning new things, especially in, but not limited to, Computer Science and Mathematics. I let my curiosity drive my learning and this blog is an outlet of that drive where I aim to decipher a topic of interest to its simplest form and answer the critical questions of why and how things work and also on a personal note, to reaffirm my understanding of the topic.
+I love learning new things, especially in, but not limited to, Computer Science and Mathematics. I let my curiosity drive my learning and this blog is an outlet of that drive where I aim to decipher a topic of interest to its simplest form and answer the critical questions of why and how things work.
+
+The blog is also a log to keep track of things I learn and validate my understanding on that topic.
 
 Hope you enjoy reading this blog as much as I enjoy writing it. 
 
