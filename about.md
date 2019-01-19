@@ -13,4 +13,4 @@ The blog is also a log to keep track of things that I learn and validate my unde
 
 Hope you enjoy reading this blog as much as I enjoy writing it. 
 
-You can see my work profile on [LinkedIn](https://www.linkedin.com/in/sushilawale){:target="_blank"}. 
+Check out my portfolio on [sushilawale.com](http://sushilawale.com){:target="_blank"}. 
