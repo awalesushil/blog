@@ -58,7 +58,7 @@ nav:
   - name:           "About"
     url:            "/about"
   - name:           "Python"
-    url:            "/python"
+    url:            "/python/"
   - name:           "Archive"
     url:            "/archive"
   - name:           "Tags"
