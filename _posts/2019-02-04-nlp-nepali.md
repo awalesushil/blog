@@ -1,11 +1,8 @@
 ---
 layout: post
-title: "Natural Language Processing Research on Nepali Language"
-description: "List of NLP papers on Nepali Language"
 date: 2019-02-04
 tags: [nlp, nepali]
 comments: true
-share: true
 ---
 
 Research on Natural Language Processing for Nepali Language began in 2005 with the **Bhasa Sanchar project** and now it is being actively carried out in universities and research institutes of Nepal and India. I have curated a list of NLP papers for Nepali language published in different journals and categorized them according to different NLP tasks in descending order of published date. 

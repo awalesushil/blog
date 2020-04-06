@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "Probably There, Definitely Not There - The Magic of Bloom Filter"
-description: "Using the Bloom Filter data structure to detect duplicate usernames while registration."
-date: 2018-05-22
 tags: [node.js, bloomfilter]
 comments: true
-share: true
 ---
 
 When signing up for an email or to a website do you remember the exhausting procedure of selecting a username? First, you try with something simple like your first name or last name. Unless you have a really unique name, good luck with that. Next, you append your birth year to it. Still no luck? I am sure you have tried adding your phone number too. By this time, you already start loathing your username.

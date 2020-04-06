@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "Containing Python Dependencies using Virtual Environment"
-description: "An explanation on what virtual environments are, why everyone should use them and how to use them in Python projects."
-date: 2019-01-19
 tags: [python, virtual-environment]
 comments: true
-share: true
 ---
 
 I'm constantly building my skills and knowledge in Machine Learning. It usually means spinning up new project directories and installing different packages for each of these projects. When you are working on multiple projects in parallel, managing the dependencies for the projects becomes a hassle.

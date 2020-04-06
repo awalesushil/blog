@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "Build an Animal Guessing Game in Kotlin"
-description: "Animal Guessing Game is a toy problem in AI that tries to predict the animal the player is thinking of."
-date: 2018-04-19
 tags: [ai, kotlin]
 comments: true
-share: true
 ---
 
 Animal Guessing Game is a [toy problem](https://artificialintelligentsystems.wordpress.com/category/toy-problems/){:target="_blank"} in Artificial Intelligence and is one of the best introductory projects for programmers who want to learn AI. I am taking Artificial Intelligence course for my fifth semester and this is my first AI project which I wrote in [Kotlin](https://kotlinlang.org/){:target="_blank"}.
