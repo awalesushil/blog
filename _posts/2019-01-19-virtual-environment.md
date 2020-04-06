@@ -2,6 +2,7 @@
 layout: post
 title: "Containing Python Dependencies using Virtual Environment"
 tags: [python, virtual-environment]
+description: "How to best use virtual environment in python to manage dependencies"
 comments: true
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Probably There, Definitely Not There - The Magic of Bloom Filter"
 tags: [node.js, bloomfilter]
+description: "What is Bloom Filter and its use case"
 comments: true
 ---
 

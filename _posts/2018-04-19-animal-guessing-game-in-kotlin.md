@@ -2,6 +2,7 @@
 layout: post
 title: "Build an Animal Guessing Game in Kotlin"
 tags: [ai, kotlin]
+description: "Animal Guessing Game using Binary Search Tree"
 comments: true
 ---
 

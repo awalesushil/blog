@@ -2,6 +2,7 @@
 layout: "post"
 title: "How to Convert Media File Formats in Bulk using FFMPEG"
 tags: ['ffmpeg','parallel','shell-script']
+description: "Converting Media File Formats in Bulk"
 comments: true
 ---
 

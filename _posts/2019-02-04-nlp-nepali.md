@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Nepali NLP Research Papers
+title: "Nepali NLP Research Papers"
 tags: [nlp, nepali]
+description: "List of Nepali NLP research papers"
 comments: true
 ---
 
