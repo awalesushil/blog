@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2019-02-04
+title: Nepali NLP Research Papers
 tags: [nlp, nepali]
 comments: true
 ---
