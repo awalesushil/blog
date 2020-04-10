@@ -1931,7 +1931,7 @@ df.loc[df.groupby('district')['length_m'].idxmax()].sort_values(by='district')[[
 **Data**
 
 * **Source**: List of Main Bridges of SRN, harvested from Government of Nepal, Department of Roads, Road Network 
-* **Link**: [http://bms.softavi.com/dashboard/guest_report_bi](http://bms.softavi.com/dashboard/guest_report_bi){:target="_blank"}
+* **Link**: [Data](http://bms.softavi.com/dashboard/guest_report_bi){:target="_blank"}
 * **Year**: 2017
 * **Retrieved**: April 09, 2020
 * **Published**: April 10, 2020
