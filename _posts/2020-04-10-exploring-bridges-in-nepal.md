@@ -1934,6 +1934,5 @@ df.loc[df.groupby('district')['length_m'].idxmax()].sort_values(by='district')[[
 * **Link**: [Data](http://bms.softavi.com/dashboard/guest_report_bi){:target="_blank"}
 * **Year**: 2017
 * **Retrieved**: April 09, 2020
-* **Published**: April 10, 2020
 
 You can find the executable Jupyter Notebook [here](https://github.com/awalesushil/exploratory-data-analysis/blob/master/bridges/Bridges%20in%20Nepal.ipynb){:target="_blank"}.
