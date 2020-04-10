@@ -197,7 +197,7 @@ df.head()
       <td>Eastern</td>
       <td>1</td>
       <td>26.6440 | 88.1638</td>
-      <td>RCC T-Beam</td>
+      <td>RCC T-Beam</td>https://github.com/awalesushil/exploratory-data-analysis/blob/master/bridges/Bridges%20in%20Nepal.ipynb
       <td>6</td>
       <td>2.7</td>
       <td>0.0</td>
@@ -1931,10 +1931,9 @@ df.loc[df.groupby('district')['length_m'].idxmax()].sort_values(by='district')[[
 **Data**
 
 * **Source**: List of Main Bridges of SRN, harvested from Government of Nepal, Department of Roads, Road Network 
-* **Link**: http://bms.softavi.com/dashboard/guest_report_bi
+* **Link**: [http://bms.softavi.com/dashboard/guest_report_bi](http://bms.softavi.com/dashboard/guest_report_bi){target: '_blank'}
 * **Year**: 2017
 * **Retrieved**: April 09, 2020
-* **Blog**: https://blog.sushilawale.com
 * **Published**: April 10, 2020
 
-You can find the executable Jupyter Notebook [here](https://github.com/awalesushil/exploratory-data-analysis/blob/master/bridges/Bridges%20in%20Nepal.ipynb).
+You can find the executable Jupyter Notebook [here](https://github.com/awalesushil/exploratory-data-analysis/blob/master/bridges/Bridges%20in%20Nepal.ipynb){target: '_blank'}.
