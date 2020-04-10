@@ -197,7 +197,7 @@ df.head()
       <td>Eastern</td>
       <td>1</td>
       <td>26.6440 | 88.1638</td>
-      <td>RCC T-Beam</td>https://github.com/awalesushil/exploratory-data-analysis/blob/master/bridges/Bridges%20in%20Nepal.ipynb
+      <td>RCC T-Beam</td>
       <td>6</td>
       <td>2.7</td>
       <td>0.0</td>
