@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Filtering Non-Devanagari Words: A Heuristic Approach"
+title: "Filtering Non-Devanagari Words: A Heuristic-based Approach"
 tags: ["nepali","nlp","preprocessing"]
 comments: true
 ---
