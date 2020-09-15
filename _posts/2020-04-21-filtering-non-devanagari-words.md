@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Filtering Non-Devanagari Words: A Heuristic Approach"
+title: "Filtering Non-Devanagari Words: A Heuristic-based Approach"
 tags: ["nepali","nlp","preprocessing"]
 comments: true
 ---
@@ -55,13 +55,13 @@ def isDevanagari(token):
 def filterTokens(line):
     return list(filter(lambda t: isDevanagari(t), line.split(" ")))
 
-sentence = "मलाई उपन्यास पढ्न, trekking जान र फूतball खेल्न मन लाग छ।"
+sentence = "मलाई उपन्यास पढ्न, trekking जान र फूतball खेल्न मन लाग्छ।"
 filtered = filterTokens(sentence)
 
 print(filtered)
 
 # Output
-# मलाई उपन्यास पढ्न, जान र खेल्न मन लाग छ।"
+# मलाई उपन्यास पढ्न, जान र खेल्न मन लाग्छ।"
 ```
 
 
